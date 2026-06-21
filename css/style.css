@@ -1,0 +1,144 @@
+/* ==========================================
+   PARRYJOHN BATHWARE
+   Premium Corporate Theme
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#ffffff;
+    color:#222;
+    line-height:1.6;
+}
+
+a{
+    text-decoration:none;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+.container{
+    width:90%;
+    max-width:1300px;
+    margin:auto;
+}
+
+/* ================= HEADER ================= */
+
+header{
+    position:sticky;
+    top:0;
+    z-index:999;
+    background:#fff;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+}
+
+.logo img{
+    height:60px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+nav a{
+    color:#222;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#005AA9;
+}
+
+/* ================= HERO ================= */
+
+.hero{
+    height:90vh;
+    background:linear-gradient(rgba(0,90,169,.75),
+                               rgba(0,90,169,.75)),
+                               url("../images/hero.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:#fff;
+}
+
+.hero-content{
+    width:90%;
+    max-width:900px;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:20px;
+    font-weight:700;
+}
+
+.hero p{
+    font-size:22px;
+    margin-bottom:40px;
+}
+
+.btn{
+    display:inline-block;
+    background:#fff;
+    color:#005AA9;
+    padding:16px 40px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#005AA9;
+    color:#fff;
+    transform:translateY(-3px);
+}
+
+/* ================= SECTION ================= */
+
+section{
+    padding:90px 0;
+}
+
+section h2{
+    text-align:center;
+    font-size:38px;
+    margin-bottom:60px;
+    color:#005AA9;
+}
+
+/* ================= FEATURED PRODUCTS ================= */
+
+#featuredProducts{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
